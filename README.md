@@ -24,10 +24,29 @@ The client-side of ChatHu is designed with an asynchronous architecture, allowin
 
 ### Key Features:
 
-- **Asynchronous Communication**: Ensures the UI remains responsive while handling networking operations.
-- **Peer Discovery**: Clients can request a list of online users from the server for initiating direct P2P communication.
-- **Direct P2P Messaging**: Allows clients to send messages directly to peers without routing through the server.
-- **Command Execution**: Supports various commands like BROADCAST, STOP, LIST, KICK, MESSAGE, and STAT.
+### User List and Peer Discovery
+
+Users can easily see who is online and initiate a private chat using the user list feature. This screen shows all currently connected users along with their status.
+
+![User List](pics/user_list.png)
+
+### Private Chat
+
+ChatHu allows for private messaging between users. The chat interface is clean and user-friendly, making communication simple and direct.
+
+![Private Chat](pics/chat.png)
+
+### Broadcast Messages
+
+Need to send a message to all online users? The broadcast feature lets you communicate with everyone at once.
+
+![Broadcast Message](pics/broadcast.png)
+
+### Server Terminal
+
+The server terminal provides real-time updates on user activity and system status, allowing for effective monitoring and management of the chat service.
+
+![Server Terminal](pics/server_terminal.png)
 
 ## Getting Started
 
